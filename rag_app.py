@@ -1,9 +1,7 @@
 import os
 
 from ibm_watsonx_ai.metanames import EmbedTextParamsMetaNames
-from ibm_watsonx_ai.foundation_models.utils.enums import EmbeddingTypes
 
-from ibm_watson_machine_learning.foundation_models.utils.enums import ModelTypes
 from ibm_watson_machine_learning.metanames import GenTextParamsMetaNames as GenParams
 
 from langchain_ibm import WatsonxEmbeddings, WatsonxLLM
